@@ -25,7 +25,7 @@ def main():
     history = [{"role": "system", "content": f"You are a helpful assistant."}]
 
     while True:
-        user_input = input("> Shinan: ").strip()
+        user_input = input("> Zhankui: ").strip()
         print()
         if user_input == "q":
             save_chat(history)
